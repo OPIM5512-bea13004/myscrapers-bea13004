@@ -39,6 +39,9 @@ storage_client = storage.Client()
 PRICE_RE      = re.compile(r"\$\s?([0-9,]+)")
 YEAR_RE       = re.compile(r"\b(19|20)\d{2}\b")
 MAKE_MODEL_RE = re.compile(r"\b([A-Z][a-z]+)\s+([A-Z][A-Za-z0-9]+)")
+CYL_RE        = re.compile(r"\bcyl(?:inders)?\s*[:\-]\s*(\d{1,2})\b", re.I)
+ENGINE_RE     = re.compile(r"\b([vViI])\s*[-]?\s*(\d{1,2})\b")
+COLOR_RE      = re.compile(r"\b(?:exterior\s+color|color|paint)\s*[:\-]\s*([a-z][a-z\s]{2,25})\b", re.I)
 
 # -------------------- HELPERS --------------------
 def _list_run_ids(bucket: str, scrapes_prefix: str) -> list[str]:
@@ -129,6 +132,34 @@ def parse_listing(text: str) -> dict:
     if mm:
         d["make"] = mm.group(1)
         d["model"] = mm.group(2)
+
+    #color
+
+    c = COLOR_RE.search(text)
+    if c:
+        try:
+            d["color"] = c.group(1).strip().lower()
+        except Exception:
+            pass
+    #cylinder count or engine
+    cyl = None
+    c1 = CYL_RE.search(text)
+    if c1:
+        try:
+            cyl = int(c1.group(1))
+        except ValueError:
+            cyl = None
+
+    if cyl is None:
+        c2 = ENGINE_RE.search(text)
+        if c2:
+            try:
+                cyl = int(c2.group(2))
+            except ValueError:
+                cyl = None
+
+    if cyl is not None:
+        d["cylinders"] = cyl
 
     # mileage variants
     mi = None
