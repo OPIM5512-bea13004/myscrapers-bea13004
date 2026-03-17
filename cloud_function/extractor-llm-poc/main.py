@@ -227,13 +227,13 @@ def _vertex_extract_fields(raw_text: str) -> dict:
     parsed["year"] = _safe_int(parsed.get("year"))
     parsed["mileage"] = _safe_int(parsed.get("mileage"))
     parsed["cylinders"] = _safe_int(parsed.get("cylinders"))
-    parsed["color"] = _norm_str(parsed.get("color"))
+    
     
     def _norm_str(s):
         if s is None: return None
         s = str(s).strip()
         return s if s else None
-
+    parsed["color"] = _norm_str(parsed.get("color"))
     parsed["make"] = _norm_str(parsed.get("make"))
     parsed["model"] = _norm_str(parsed.get("model"))
 
