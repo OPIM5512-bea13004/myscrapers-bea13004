@@ -16,7 +16,7 @@ from google.cloud import storage
 
 # -------------------- ENV --------------------
 BUCKET_NAME        = os.getenv("GCS_BUCKET")                      # REQUIRED
-STRUCTURED_PREFIX  = os.getenv("STRUCTURED_PREFIX", "structured") # e.g., "structured"
+STRUCTURED_PREFIX  = os.getenv("STRUCTURED_PREFIX", "structured_v2") # e.g., "structured"
 
 storage_client = storage.Client()
 
@@ -27,7 +27,7 @@ RUN_ID_PLAIN_RE = re.compile(r"^\d{14}$")        # 20251026170002
 # Stable CSV schema for students
 CSV_COLUMNS = [
     "post_id", "run_id", "scraped_at",
-    "price", "year", "make", "model", "mileage",
+    "price", "year", "make", "model", "mileage", "color", "cylinders",
     "source_txt"
 ]
 
