@@ -169,8 +169,10 @@ def _vertex_extract_fields(raw_text: str) -> dict:
             "make": {"type": "string", "nullable": True},
             "model": {"type": "string", "nullable": True},
             "mileage": {"type": "integer", "nullable": True},
+            "color": {"type": "string", "nullable": True},
+        "cylinders": {"type": "integer", "nullable": True},
         },
-        "required": ["price", "year", "make", "model", "mileage"]
+        "required": ["price", "year", "make", "model", "mileage", "color", "cylinders"]
     }
 
     # System instruction (will be prepended to the prompt)
@@ -179,6 +181,8 @@ def _vertex_extract_fields(raw_text: str) -> dict:
         "Return a strict JSON object that conforms to the provided schema. "
         "If a value is not present, use null. "
         "Rules: integers for price/year/mileage; price in USD; mileage in miles; "
+        "cylinders should be an integer (ex v6 becomes 6). "
+        "color should only be the exterior color if listed" 
         "do not infer values not explicitly present; do not add extra keys."
     )
 
@@ -222,6 +226,8 @@ def _vertex_extract_fields(raw_text: str) -> dict:
     parsed["price"] = _safe_int(parsed.get("price"))
     parsed["year"] = _safe_int(parsed.get("year"))
     parsed["mileage"] = _safe_int(parsed.get("mileage"))
+    parsed["cylinders"] = _safe_int(parsed.get("cylinders"))
+    parsed["color"] = _norm_str(parsed.get("color"))
     
     def _norm_str(s):
         if s is None: return None
@@ -318,6 +324,8 @@ def llm_extract_http(request: Request):
                 "make": parsed.get("make"),
                 "model": parsed.get("model"),
                 "mileage": parsed.get("mileage"),
+                "color": parsed.get("color"),
+                "cylinders": parsed.get("cylinders"),
                 "llm_provider": "vertex",
                 "llm_model": LLM_MODEL,
                 "llm_ts": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
