@@ -5,8 +5,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'cloud_function/extractor-per-listing/**'
-      - '.github/workflows/deploy-extractor.yml'
+      - 'cloud_function/extractor-per-listing-v2/**'
+      - '.github/workflows/deploy-extractor-v2.yml'
   workflow_dispatch: {}
 
 permissions:
