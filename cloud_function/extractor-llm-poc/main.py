@@ -156,7 +156,7 @@ def _safe_int(x):
 # -------------------- VERTEX AI CALL --------------------
 def _vertex_extract_fields(raw_text: str) -> dict:
     """
-    Ask Gemini to return JSON with exactly: price, year, make, model, mileage.
+    Ask Gemini to return JSON with exactly: price, year, make, model, mileage, transmission, fuel, color.
     """
     model = _get_vertex_model()
 
@@ -169,10 +169,12 @@ def _vertex_extract_fields(raw_text: str) -> dict:
             "make": {"type": "string", "nullable": True},
             "model": {"type": "string", "nullable": True},
             "mileage": {"type": "integer", "nullable": True},
+            "transmission": {"type": "string", "nullable": True},
+            "fuel": {"type": "string", "nullable": True},
             "color": {"type": "string", "nullable": True},
-        "cylinders": {"type": "integer", "nullable": True},
+            "cylinders": {"type": "integer", "nullable": True},
         },
-        "required": ["price", "year", "make", "model", "mileage", "color", "cylinders"]
+        "required": ["price", "year", "make", "model", "mileage", "transmission", "fuel", "color", "cylinders"]
     }
 
     # System instruction (will be prepended to the prompt)
@@ -181,6 +183,8 @@ def _vertex_extract_fields(raw_text: str) -> dict:
         "Return a strict JSON object that conforms to the provided schema. "
         "If a value is not present, use null. "
         "Rules: integers for price/year/mileage; price in USD; mileage in miles; "
+        "transmission should be automatic or manual only if stated explicitly. "
+        "fuel should be a fuel type such as gas, gasoline, hybrid, electric, or diesel. "
         "cylinders should be an integer (ex v6 becomes 6). "
         "color should only be the exterior color if listed" 
         "do not infer values not explicitly present; do not add extra keys."
@@ -233,6 +237,8 @@ def _vertex_extract_fields(raw_text: str) -> dict:
         if s is None: return None
         s = str(s).strip()
         return s if s else None
+    parsed["transmission"] = _norm_str(parsed.get("transmission"))
+    parsed["fuel"] = _norm_str(parsed.get("fuel"))
     parsed["color"] = _norm_str(parsed.get("color"))
     parsed["make"] = _norm_str(parsed.get("make"))
     parsed["model"] = _norm_str(parsed.get("model"))
@@ -324,6 +330,8 @@ def llm_extract_http(request: Request):
                 "make": parsed.get("make"),
                 "model": parsed.get("model"),
                 "mileage": parsed.get("mileage"),
+                "transmission": parsed.get("transmission"),
+                "fuel": parsed.get("fuel"),
                 "color": parsed.get("color"),
                 "cylinders": parsed.get("cylinders"),
                 "llm_provider": "vertex",
