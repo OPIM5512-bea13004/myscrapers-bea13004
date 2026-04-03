@@ -341,6 +341,8 @@ def llm_extract_http(request: Request):
                 "fuel": parsed.get("fuel"),
                 "color": parsed.get("color"),
                 "cylinders": parsed.get("cylinders"),
+                "city": parsed.get("city"),
+                "state": parsed.get("state"),
                 "llm_provider": "vertex",
                 "llm_model": LLM_MODEL,
                 "llm_ts": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
