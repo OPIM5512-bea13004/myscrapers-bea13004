@@ -173,8 +173,10 @@ def _vertex_extract_fields(raw_text: str) -> dict:
             "fuel": {"type": "string", "nullable": True},
             "color": {"type": "string", "nullable": True},
             "cylinders": {"type": "integer", "nullable": True},
+            "city": {"type": "string", "nullable": True},
+            "state": {"type": "string", "nullable": True},
         },
-        "required": ["price", "year", "make", "model", "mileage", "transmission", "fuel", "color", "cylinders"]
+        "required": ["price", "year", "make", "model", "mileage", "transmission", "fuel", "color", "cylinders", "city", "state"]
     }
 
     # System instruction (will be prepended to the prompt)
@@ -186,8 +188,11 @@ def _vertex_extract_fields(raw_text: str) -> dict:
         "transmission should be automatic or manual only if stated explicitly. "
         "fuel should be a fuel type such as gas, gasoline, hybrid, electric, or diesel. "
         "cylinders should be an integer (ex v6 becomes 6). "
-        "color should only be the exterior color if listed" 
-        "do not infer values not explicitly present; do not add extra keys."
+        "color should only be the exterior color if listed " 
+        "do not infer values not explicitly present; do not add extra keys. "
+        "city should be the city explicitly mentioned in the listing. "
+        "state should be the state explicitly mentioned in the listing. " 
+        
     )
 
     # FIX: Combine instruction and text into one prompt string (SDK compatibility)
@@ -242,6 +247,8 @@ def _vertex_extract_fields(raw_text: str) -> dict:
     parsed["color"] = _norm_str(parsed.get("color"))
     parsed["make"] = _norm_str(parsed.get("make"))
     parsed["model"] = _norm_str(parsed.get("model"))
+    parsed["city"] = _norm_str(parsed.get("city"))
+    parsed["state"] = _norm_str(parsed.get("state"))
 
     return parsed
 
