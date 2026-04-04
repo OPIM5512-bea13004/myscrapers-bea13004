@@ -62,6 +62,7 @@ def run_once(dry_run: bool = False, max_depth: int = 12, min_samples_leaf: int =
     df["price_num"]   = _clean_numeric(df["price"])
     df["year_num"]    = _clean_numeric(df["year"])
     df["mileage_num"] = _clean_numeric(df["mileage"])
+    df["cylinders_num"] = _clean_numeric(df["cylinders"])
 
     valid_price_rows = int(df["price_num"].notna().sum())
     logging.info("Rows total=%d | with valid numeric price=%d", orig_rows, valid_price_rows)
@@ -87,8 +88,8 @@ def run_once(dry_run: bool = False, max_depth: int = 12, min_samples_leaf: int =
 
     # --- Model: make, model, year_num, mileage_num -> price_num ---
     target = "price_num"
-    cat_cols = ["make", "model"]
-    num_cols = ["year_num", "mileage_num"]
+    cat_cols = ["make", "model", "transmission", "fuel", "color", "city", "state"]
+    num_cols = ["year_num", "mileage_num", "cylinders_num"]
     feats = cat_cols + num_cols
 
     pre = ColumnTransformer(
