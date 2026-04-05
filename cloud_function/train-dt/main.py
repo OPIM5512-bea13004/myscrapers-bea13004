@@ -43,6 +43,11 @@ def run_once(dry_run: bool = False, max_depth: int = 12, min_samples_leaf: int =
     client = storage.Client(project=PROJECT_ID)
     df = _read_csv_from_gcs(client, GCS_BUCKET, DATA_KEY)
 
+    for col in ["transmission", "fuel", "color", "city", "state", "cylinders"]:
+        if col not in df.columns:
+            df[col] = np.nan
+    
+
     required = {"scraped_at", "price", "make", "model", "year", "mileage"}
     missing = required - set(df.columns)
     if missing:
