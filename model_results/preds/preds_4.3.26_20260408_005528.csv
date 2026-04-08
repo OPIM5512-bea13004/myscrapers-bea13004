@@ -1,0 +1,291 @@
+year,make,model,mileage,transmission,fuel,color,city,state,cylinders,actual_price,pred_price,run_id
+2015,Subaru,Outback,141231.0,automatic,gas,white,missing,missing,6.0,10998.0,9517.304085208483,4.3.26_20260408_005528
+2017,Lincoln,MKT Limo,190964.0,automatic,gas,black,missing,missing,6.0,14900.0,13167.536763385875,4.3.26_20260408_005528
+2015,Ford,Super Duty F-350 SRW,120934.0,automatic,diesel,black,missing,missing,8.0,22500.0,15426.218243807718,4.3.26_20260408_005528
+2019,Chevrolet,Traverse,87713.0,automatic,gas,Mosaic Black Metallic,missing,missing,6.0,14650.0,21942.84670103054,4.3.26_20260408_005528
+2014,volkswagen,jetta,158000.0,missing,gas,blue,missing,missing,4.0,4700.0,9013.734096189235,4.3.26_20260408_005528
+2008,Toyota,Corolla,139374.0,automatic,gas,gold,missing,missing,4.0,5900.0,3410.7887464030664,4.3.26_20260408_005528
+2009,Chevrolet,Silverado 1500,177265.0,automatic,gas,green,missing,missing,8.0,6700.0,13998.502272741645,4.3.26_20260408_005528
+2012,Mercedes-Benz,S-class S550,68000.0,automatic,gas,black,missing,missing,8.0,18000.0,12312.637102656347,4.3.26_20260408_005528
+2018,ford,e350 super duty cutaway,160000.0,automatic,gas,white,missing,missing,10.0,25000.0,13926.74273228185,4.3.26_20260408_005528
+2015,Volkswagen,Passat,116694.0,automatic,gas,Night Blue Metallic,missing,missing,4.0,7750.0,5462.380679801967,4.3.26_20260408_005528
+2015,Jaguar,XF,79004.0,automatic,gas,black,missing,missing,6.0,11900.0,15143.220816741426,4.3.26_20260408_005528
+1998,Mitsubishi,Montero,157000.0,automatic,gas,missing,missing,missing,6.0,4500.0,9606.347117602436,4.3.26_20260408_005528
+2015,Subaru,Forester,131732.0,automatic,gas,black,missing,missing,4.0,9998.0,8114.071490201102,4.3.26_20260408_005528
+2019,Ford,F450 Super Duty,131000.0,automatic,diesel,black,missing,missing,6.0,59000.0,19816.721152381706,4.3.26_20260408_005528
+2019,Mercedes-Benz,Sprinter C2500/C3500,85710.0,automatic,diesel,grey,missing,missing,6.0,20990.0,16417.042767534578,4.3.26_20260408_005528
+2007,ford,focus,185000.0,automatic,gas,missing,missing,missing,4.0,3288.0,854.6744481283022,4.3.26_20260408_005528
+2012,chrysler,town & country,166000.0,automatic,gas,custom,missing,missing,6.0,1600.0,9008.307565029227,4.3.26_20260408_005528
+2013,infiniti,g37x,179282.0,automatic,gas,white,missing,missing,6.0,3000.0,10012.988850159189,4.3.26_20260408_005528
+2003,jeep,liberty sport 4x4,48000.0,automatic,gas,missing,missing,missing,6.0,5000.0,6739.555663720061,4.3.26_20260408_005528
+2005,BMW,325i,181000.0,automatic,gas,missing,missing,missing,6.0,800.0,10337.951462102224,4.3.26_20260408_005528
+2012,Ford,E-350 super duty,198600.0,automatic,gas,black,missing,missing,8.0,10000.0,11827.144724462216,4.3.26_20260408_005528
+2020,Maserati,Quattroporte,39853.0,automatic,gas,blue,missing,missing,6.0,39500.0,14346.28326514662,4.3.26_20260408_005528
+2006,ford,e-350 econoline,190000.0,automatic,gas,missing,missing,missing,8.0,1500.0,4984.859448129679,4.3.26_20260408_005528
+2004,Chevy,Silverado 2500,200000.0,automatic,gas,missing,missing,missing,missing,5900.0,7577.0080792716935,4.3.26_20260408_005528
+2014,chevrolet,silverado 1500,200526.0,automatic,gas,white,missing,missing,8.0,8500.0,10602.724162651866,4.3.26_20260408_005528
+2008,Honda,CRV,166657.0,automatic,gas,black,missing,missing,4.0,4500.0,6668.893962873235,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2005,Honda,Accord LX,220000.0,automatic,gas,missing,missing,missing,4.0,2500.0,3705.1545832439933,4.3.26_20260408_005528
+2016,BMW,X3 2.8i X-drive Premium SUV,124000.0,automatic,gas,white,missing,missing,4.0,9885.0,9823.71898400799,4.3.26_20260408_005528
+2007,Freightliner,M2,235000.0,automatic,diesel,white,missing,missing,6.0,9500.0,12376.940885313648,4.3.26_20260408_005528
+2011,GMC,Savana 1500 Cargo,110885.0,automatic,gas,white,missing,missing,6.0,8500.0,12615.831657811748,4.3.26_20260408_005528
+2011,acura,mdx,125000.0,automatic,gas,white,missing,missing,6.0,6200.0,8561.446092243019,4.3.26_20260408_005528
+2009,CHEVROLET,COBALT,140000.0,automatic,gas,missing,missing,missing,missing,3000.0,8657.89471165186,4.3.26_20260408_005528
+2012,Nissan,Rogue,168000.0,automatic,gas,red,missing,missing,4.0,2300.0,6418.765688246316,4.3.26_20260408_005528
+2015,NISSAN,ROGUE S,133000.0,automatic,gas,Black,missing,missing,4.0,4900.0,6556.116706509616,4.3.26_20260408_005528
+2012,Subaru,Outback,105094.0,automatic,gas,blue,missing,missing,4.0,9998.0,4703.538104506224,4.3.26_20260408_005528
+2018,Chevrolet,Equinox,94000.0,automatic,gas,grey,missing,missing,4.0,9500.0,21247.412948541016,4.3.26_20260408_005528
+2023,CHRYSLER,PACIFICA TOURING L,20228.0,automatic,gasoline,blue,missing,missing,6.0,68993.0,31280.03071108704,4.3.26_20260408_005528
+2013,Volkswagen,Tiguan,108000.0,automatic,gas,black,missing,missing,4.0,6200.0,6523.76838076893,4.3.26_20260408_005528
+2014,Ford,Focus,108456.0,automatic,gas,blue,missing,missing,4.0,5500.0,7520.650483727213,4.3.26_20260408_005528
+2015,Nissan,Pathfinder,154800.0,automatic,gas,silver,missing,missing,6.0,8000.0,6166.966883124092,4.3.26_20260408_005528
+2008,chevrolet,silverado,250000.0,automatic,gas,missing,missing,missing,missing,3800.0,6285.214710688564,4.3.26_20260408_005528
+2019,Audi,A6 Premium Plus,42250.0,automatic,gas,black,missing,missing,missing,17000.0,17594.22792791336,4.3.26_20260408_005528
+2014,Subaru,XV Crosstrek Hybrid AWD,120228.0,automatic,hybrid,green,missing,missing,4.0,8999.0,5657.475214033277,4.3.26_20260408_005528
+2002,Chevrolet,Impala,168886.0,automatic,gas,missing,missing,missing,6.0,2500.0,18172.921125977264,4.3.26_20260408_005528
+2008,Subaru,Outback,146350.0,automatic,gas,black,missing,missing,4.0,4998.0,6024.457328749702,4.3.26_20260408_005528
+2019,Mercedes Benz,AMG GLE 43 Coupe Studio Edition,74648.0,automatic,gas,black,missing,missing,6.0,47500.0,20166.00380240717,4.3.26_20260408_005528
+2016,Toyota,Prius Two,173177.0,automatic,hybrid,silver,missing,missing,4.0,9499.0,3783.2078704351406,4.3.26_20260408_005528
+1977,Pontiac,Trans Am,64877.0,manual,gas,black,missing,missing,8.0,59500.0,40910.250468309736,4.3.26_20260408_005528
+1963,AMC,Rambler Classic,57290.0,manual,gas,yellow,missing,missing,6.0,7000.0,23663.804603331366,4.3.26_20260408_005528
+2015,Kia,Optima,116669.0,automatic,gas,Bright Silver,missing,missing,4.0,8800.0,5794.106981092877,4.3.26_20260408_005528
+2021,Jeep,Grand Cherokee L,119058.0,automatic,gas,Baltic Gray Metallic Clearcoat,missing,missing,6.0,21950.0,17172.826383358857,4.3.26_20260408_005528
+1940,Ford,Coupe Deluxe,missing,automatic,gas,red,missing,missing,8.0,44500.0,16463.62001681705,4.3.26_20260408_005528
+2014,Chevrolet,Silverado 1500,142168.0,automatic,gas,gray,missing,missing,8.0,14600.0,15859.405434572775,4.3.26_20260408_005528
+2013,Ford,Econoline Cargo Van E-250,108356.0,automatic,gas,white,missing,missing,8.0,12900.0,10933.483185528512,4.3.26_20260408_005528
+2018,Acura,MDX,72433.0,automatic,gas,White Diamond Pearl,missing,missing,6.0,17990.0,14284.139891581082,4.3.26_20260408_005528
+1966,CHEVROLET,CHEVELLE,59985.0,automatic,gas,grey,missing,missing,missing,69500.0,43856.101953876976,4.3.26_20260408_005528
+2014,Mercedes-Benz,S-Class,82595.0,automatic,gas,gray,missing,missing,8.0,20900.0,13420.312658040119,4.3.26_20260408_005528
+2015,Honda,Pilot,92417.0,automatic,gas,silver,missing,missing,6.0,11950.0,8566.724484228916,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2011,Ram,Dakota,129550.0,automatic,gas,black,missing,missing,6.0,9700.0,10430.387828067955,4.3.26_20260408_005528
+2010,HONDA,CR-V LX,149000.0,automatic,gas,missing,missing,missing,4.0,7300.0,4898.548851448477,4.3.26_20260408_005528
+2017,Hyundai,Elantra,105189.0,automatic,gas,red,missing,missing,4.0,8900.0,8820.912248286277,4.3.26_20260408_005528
+2017,toyota,camry,98165.0,automatic,gas,white,missing,missing,4.0,14700.0,9000.789324194051,4.3.26_20260408_005528
+2015,subaru,forester 2.5i limited awd,150818.0,automatic,gas,silver,missing,missing,4.0,6900.0,5895.357984056151,4.3.26_20260408_005528
+2012,toyota,camry,160899.0,automatic,gas,red,missing,missing,4.0,8500.0,8099.371580856057,4.3.26_20260408_005528
+2012,chrysler,town & country,166000.0,automatic,gas,custom,missing,missing,6.0,1550.0,9008.307565029227,4.3.26_20260408_005528
+2016,Toyota,RAV4 Hybrid,141229.0,automatic,hybrid,black,missing,missing,4.0,13900.0,7067.965721814282,4.3.26_20260408_005528
+2010,honda,accord,80000.0,automatic,gas,silver,missing,missing,6.0,25000.0,2048.9555688474557,4.3.26_20260408_005528
+2007,chevy,Box Truck,66000.0,automatic,gas,white,missing,missing,8.0,7500.0,5793.342566501515,4.3.26_20260408_005528
+2005,Ford,F-350 Super Duty,310000.0,automatic,diesel,white,missing,missing,8.0,15900.0,14768.877769634326,4.3.26_20260408_005528
+2018,Ford,F-150,71621.0,automatic,gas,missing,missing,missing,6.0,29920.0,15083.024546694105,4.3.26_20260408_005528
+2013,mercedes benz,e350 4matic wagon,148609.0,automatic,gas,black,missing,missing,6.0,9900.0,11418.403517122291,4.3.26_20260408_005528
+2018,subaru,crosstrek,188779.0,automatic,gas,black,missing,missing,4.0,6900.0,12806.434075484014,4.3.26_20260408_005528
+2018,Lexus,LC 500,19539.0,automatic,gas,missing,missing,missing,8.0,48920.0,15640.676636293883,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2012,chevrolet,malibu,132567.0,automatic,gas,silver,missing,missing,4.0,3995.0,5527.846582659173,4.3.26_20260408_005528
+2006,saab,9-3 convertible,145000.0,automatic,gas,grey,missing,missing,4.0,3200.0,4954.412355765,4.3.26_20260408_005528
+2014,BMW,750LI xdrive,113000.0,automatic,gas,black,missing,missing,8.0,6999.0,13616.510463086997,4.3.26_20260408_005528
+2018,Subaru,Outback,117800.0,automatic,gas,red,missing,missing,4.0,11800.0,11767.718344070377,4.3.26_20260408_005528
+2009,Honda,accord,120000.0,automatic,gas,grey,missing,missing,4.0,5999.0,2106.2351500338827,4.3.26_20260408_005528
+2015,Honda,Accord,149000.0,automatic,gas,black,missing,missing,4.0,7500.0,9056.796029067462,4.3.26_20260408_005528
+2009,Audi,A5,215000.0,manual,gas,silver,missing,missing,6.0,2500.0,17741.423359481345,4.3.26_20260408_005528
+1983,Chevrolet,C/K Pickup,25257.0,automatic,gas,black,missing,missing,8.0,3550.0,26769.70659015207,4.3.26_20260408_005528
+2011,Chevy,Malibu,165000.0,automatic,gas,silver,missing,missing,4.0,2999.0,74.55654627816148,4.3.26_20260408_005528
+2004,chrysler,crossfire,93000.0,automatic,gas,grey,missing,missing,6.0,7500.0,10076.990679579407,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2003,nissan,altima,84000.0,automatic,gas,brown,missing,missing,4.0,4000.0,8815.195736523689,4.3.26_20260408_005528
+2017,Ram,ProMaster 2500 High Roof 159in WB,174000.0,automatic,gas,white,missing,missing,6.0,14500.0,12012.99890023504,4.3.26_20260408_005528
+2023,subaru,forester,113437.0,automatic,gas,black,missing,missing,4.0,19900.0,19180.91350623103,4.3.26_20260408_005528
+2008,Chevrolet,Silverado,167190.0,automatic,gas,blue,missing,missing,6.0,7999.0,17651.89532938972,4.3.26_20260408_005528
+2015,Jeep,Compass,129000.0,automatic,gas,blue,missing,missing,4.0,5500.0,6802.506758821832,4.3.26_20260408_005528
+2024,RAM,PROMASTER 2500 159 WB,25.0,automatic,gasoline,white,missing,missing,6.0,88993.0,30558.461038358408,4.3.26_20260408_005528
+2012,mazda,5 Touring,172000.0,automatic,gas,grey,missing,missing,4.0,3900.0,5643.202182767362,4.3.26_20260408_005528
+2010,Nissan,Altima,163117.0,automatic,gas,black,missing,missing,4.0,4500.0,6492.464188927759,4.3.26_20260408_005528
+2000,Ford,Mustang Convertible,197000.0,manual,gas,black,missing,missing,6.0,3900.0,22868.650310140976,4.3.26_20260408_005528
+1976,chevrolet,camaro,139000.0,automatic,gas,blue,missing,missing,8.0,25000.0,13100.161427036932,4.3.26_20260408_005528
+2004,Mercedes-Benz,S500 4Matic,80982.0,automatic,gas,black,missing,missing,8.0,8995.0,12940.546333500852,4.3.26_20260408_005528
+2013,Honda,Civic,112885.0,automatic,gas,blue,missing,missing,4.0,7999.0,5356.321835759121,4.3.26_20260408_005528
+2013,Subaru,Impreza,150000.0,automatic,gas,missing,missing,missing,6.0,3900.0,2776.3501228041896,4.3.26_20260408_005528
+2010,hyundia,elantra,133500.0,automatic,gas,grey,missing,missing,4.0,3300.0,6541.57659384515,4.3.26_20260408_005528
+2013,hyundai,santa fe,180000.0,automatic,gas,white,missing,missing,4.0,6500.0,5865.812477799738,4.3.26_20260408_005528
+2016,BMW,5 Series,100300.0,automatic,gas,black,missing,missing,6.0,14800.0,14115.192327502094,4.3.26_20260408_005528
+2014,Nissan,Maxima SV,117455.0,automatic,gas,white,missing,missing,6.0,6488.0,7898.762339024548,4.3.26_20260408_005528
+2014,Mazda,CX-5,99800.0,automatic,gas,Gray Meteor Gray Mica,missing,missing,4.0,12800.0,7258.471362866343,4.3.26_20260408_005528
+2015,Volkswagen,Jetta Sedan,141800.0,automatic,gas,Red Tornado Red,missing,missing,4.0,6800.0,5931.385367665576,4.3.26_20260408_005528
+2015,Cadillac,ATS Sedan,80600.0,automatic,gas,Tan Silver Coast Metallic,missing,missing,4.0,13800.0,7232.657943353051,4.3.26_20260408_005528
+2008,Acura,RDX SH-AWD w/tech,131799.0,automatic,gas,red,missing,missing,4.0,7995.0,7742.65110582679,4.3.26_20260408_005528
+2011,Honda,Civic,56000.0,automatic,Natural Gas,white,missing,missing,4.0,3400.0,4986.044111189825,4.3.26_20260408_005528
+2015,Subaru,XV Crosstrek,154359.0,automatic,gas,Gray,missing,missing,4.0,9998.0,6441.197764914932,4.3.26_20260408_005528
+1978,Volvo,262C Bertone,100000.0,manual,gas,Porsche Polar Silver,missing,missing,4.0,6500.0,17754.712775239623,4.3.26_20260408_005528
+2014,Audi,Q5,129400.0,automatic,gasoline,Gray Monsoon Gray Metallic,missing,missing,4.0,9800.0,7588.538125562416,4.3.26_20260408_005528
+2010,HYANDIA,ELECTRA,133500.0,automatic,gas,grey,missing,missing,4.0,3300.0,6541.57659384515,4.3.26_20260408_005528
+2010,subaru,forester,150000.0,automatic,gas,blue,missing,missing,4.0,5500.0,4157.323780958404,4.3.26_20260408_005528
+2013,Lexus,RX 350,168000.0,automatic,gas,missing,missing,missing,6.0,9800.0,8607.085401912496,4.3.26_20260408_005528
+2018,Chevrolet,Equinox,135100.0,automatic,gas,black,missing,missing,4.0,12800.0,24173.943609417976,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2012,Kia,Rio,95000.0,automatic,gas,red,missing,missing,4.0,3995.0,7078.679001652788,4.3.26_20260408_005528
+2019,Toyota,Tundra,59082.0,automatic,gas,missing,missing,missing,8.0,31930.0,8988.643256977182,4.3.26_20260408_005528
+2018,Lexus,LX 570,75788.0,automatic,gas,missing,missing,missing,8.0,32930.0,13196.223245375399,4.3.26_20260408_005528
+2009,Toyota,Camry LE,70000.0,automatic,gas,grey,missing,missing,4.0,9000.0,4283.437732652677,4.3.26_20260408_005528
+2012,nissan,altima 2.5 sl,140000.0,automatic,gas,black,missing,missing,4.0,5000.0,4580.834999841098,4.3.26_20260408_005528
+2015,Honda,Civic,74500.0,automatic,gas,black,missing,missing,4.0,9000.0,8540.617962396474,4.3.26_20260408_005528
+2013,Lexus,ES350,79000.0,automatic,gas,grey,missing,missing,6.0,14950.0,11416.467761281763,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3488.0,2857.0065463921364,4.3.26_20260408_005528
+2021,tesla,Y,61000.0,automatic,electric,white,missing,missing,6.0,5000.0,13879.420573667341,4.3.26_20260408_005528
+2016,chevy,silverado 1500,90000.0,automatic,gas,blue,missing,missing,8.0,2000.0,5360.669090354295,4.3.26_20260408_005528
+2016,Nissan,Pathfinder,114000.0,automatic,gas,Arctic Blue Metallic,missing,missing,6.0,9885.0,7402.7991746050775,4.3.26_20260408_005528
+2018,Toyota,Highlander,133333.0,automatic,gas,brown,missing,missing,6.0,12450.0,12089.220133763873,4.3.26_20260408_005528
+2023,volkswagen,tiguan,22500.0,automatic,gas,grey,missing,missing,missing,20000.0,20622.564874934993,4.3.26_20260408_005528
+2013,Nissan,Altima,103000.0,automatic,gas,white,missing,missing,6.0,9500.0,7037.345784364836,4.3.26_20260408_005528
+2013,Volvo,S60 T5 Sport Sedan,101000.0,automatic,gas,white,missing,missing,5.0,5485.0,7699.420190682511,4.3.26_20260408_005528
+2021,tesla,Y,61000.0,automatic,electric,white,missing,missing,6.0,5000.0,13879.420573667341,4.3.26_20260408_005528
+2016,chevy,silverado 1500,90000.0,automatic,gas,blue,missing,missing,8.0,2000.0,5360.669090354295,4.3.26_20260408_005528
+2001,Acura,3.5RL,121327.0,automatic,gas,white,missing,missing,6.0,4300.0,12627.337092457763,4.3.26_20260408_005528
+2014,Subaru,XV CrossTrek,124824.0,automatic,gas,grey,missing,missing,4.0,10900.0,5251.6380975500815,4.3.26_20260408_005528
+2015,Mercedes-Benz,GL 450 4MATIC,124948.0,automatic,gas,black,missing,missing,6.0,10950.0,12475.524601685358,4.3.26_20260408_005528
+2014,Honda,CR-V EX,130000.0,automatic,gas,brown,missing,missing,4.0,11900.0,6112.822475664603,4.3.26_20260408_005528
+2015,Jeep,Cherokee Latitude,81802.0,automatic,gas,blue,missing,missing,6.0,9900.0,9649.745922625074,4.3.26_20260408_005528
+2014,Hyundai,Sonata,118290.0,automatic,gas,white,missing,missing,4.0,6900.0,5405.695495832262,4.3.26_20260408_005528
+2015,Chrysler,Town & Country,51345.0,automatic,gas,white,missing,missing,6.0,28900.0,16337.946282337629,4.3.26_20260408_005528
+2016,Ford,Fiesta S,88133.0,automatic,gas,white,missing,missing,4.0,5900.0,8351.658351614335,4.3.26_20260408_005528
+2018,Subaru,Crosstrek,173000.0,automatic,gas,red,missing,missing,4.0,9900.0,10688.232023591167,4.3.26_20260408_005528
+2020,Ram,Promaster 2500,46500.0,automatic,gas,silver,missing,missing,6.0,26500.0,14411.49720491939,4.3.26_20260408_005528
+2011,Chevy,express 2500,200000.0,manual,gas,missing,missing,missing,8.0,3300.0,11551.782158826114,4.3.26_20260408_005528
+2020,honda,accord,20000.0,automatic,gas,blue,missing,missing,8.0,2000.0,6995.971811412861,4.3.26_20260408_005528
+2013,Nissan,Versa,121347.0,manual,gas,grey,missing,missing,4.0,3900.0,12091.06126618635,4.3.26_20260408_005528
+2013,Infiniti,EX35,89281.0,automatic,gas,grey,missing,missing,6.0,9900.0,7852.974151425946,4.3.26_20260408_005528
+2019,Hyundai,Elantra,121000.0,automatic,gas,grey,missing,missing,4.0,7900.0,8979.456091668115,4.3.26_20260408_005528
+2014,Volkswagen,Passat,85972.0,automatic,gas,grey,missing,missing,4.0,8900.0,4712.994310517603,4.3.26_20260408_005528
+2012,Honda,Accord LX,150492.0,automatic,gas,black,missing,missing,4.0,5900.0,6956.07836204285,4.3.26_20260408_005528
+2018,Subaru,Outback,136170.0,automatic,gas,Blue,missing,missing,4.0,13998.0,9854.766257826406,4.3.26_20260408_005528
+2010,TOYOTA,CAMRY LE,149000.0,automatic,gas,missing,missing,missing,4.0,7200.0,5055.312669985025,4.3.26_20260408_005528
+2014,jeep,wrangler sport,163000.0,manual,gas,silver,missing,missing,6.0,8000.0,16013.751944932463,4.3.26_20260408_005528
+2013,chrysler,town and country limited,163000.0,automatic,gas,silver,missing,missing,6.0,4900.0,7557.745498287086,4.3.26_20260408_005528
+2012,Nissan,Altima,267000.0,automatic,gas,missing,missing,missing,missing,1000.0,5282.680654557978,4.3.26_20260408_005528
+2014,VW,Jetta SE,173000.0,automatic,gas,grey,missing,missing,4.0,4200.0,5343.42730074841,4.3.26_20260408_005528
+2015,Subaru,Outback,174302.0,automatic,gas,blue,missing,missing,4.0,9998.0,5422.246732545185,4.3.26_20260408_005528
+2008,acura,tl,144000.0,missing,gas,grey,missing,missing,6.0,4500.0,10101.61036239663,4.3.26_20260408_005528
+2004,Chevy,Silverado 1500,188000.0,automatic,gas,missing,missing,missing,8.0,3500.0,659.2575617772909,4.3.26_20260408_005528
+2016,Audi,A3,161000.0,automatic,gas,white,missing,missing,missing,1600.0,11392.317848189912,4.3.26_20260408_005528
+2016,dodge,grand caravan sxt,180000.0,automatic,gas,black,missing,missing,6.0,5200.0,8982.79306972903,4.3.26_20260408_005528
+2006,chevy,impala SS,111000.0,automatic,gas,black,missing,missing,8.0,6750.0,7024.948752939617,4.3.26_20260408_005528
+2011,subaru,outback 2.5i premium,190000.0,automatic,gas,grey,missing,missing,missing,3750.0,8786.722618499225,4.3.26_20260408_005528
+2013,Hyundai,Elantra,114100.0,automatic,gas,Gray Harbor Gray Metallic,missing,missing,4.0,6800.0,5536.504882947178,4.3.26_20260408_005528
+2009,Jeep,Grand Cherokee Laredo,117810.0,automatic,gas,black,missing,missing,8.0,6800.0,11759.301547240722,4.3.26_20260408_005528
+2015,Ford,Escape,119500.0,automatic,gas,Black,missing,missing,4.0,7800.0,7536.213205879818,4.3.26_20260408_005528
+1998,subaru,outback,260000.0,manual,gas,black,missing,missing,4.0,1550.0,21537.087713024375,4.3.26_20260408_005528
+2018,Ford,Edge,137100.0,automatic,gas,Gray Magnetic Metallic,missing,missing,4.0,10800.0,11499.802075672149,4.3.26_20260408_005528
+2012,Fiat,500,37851.0,manual,gas,blue,missing,missing,4.0,7999.0,14774.478540811519,4.3.26_20260408_005528
+2021,lexus,nx 300 f sport awd suv,125753.0,automatic,gas,black,missing,missing,4.0,21900.0,14722.481177980431,4.3.26_20260408_005528
+2019,Audi,A6 Premium Plus,42250.0,automatic,gas,black,missing,missing,missing,17000.0,17594.22792791336,4.3.26_20260408_005528
+2009,CHEVROLET,COBALT,140000.0,automatic,gas,missing,missing,missing,missing,3000.0,8657.89471165186,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2000,Ford,Ranger,104000.0,automatic,gas,black,missing,missing,missing,3500.0,14939.430390565418,4.3.26_20260408_005528
+2015,subaru,impreza,183000.0,automatic,gas,silver,missing,missing,4.0,4800.0,4760.40908895237,4.3.26_20260408_005528
+2019,lexus,rx350L,149541.0,automatic,gas,white,missing,missing,6.0,20900.0,14386.928352483199,4.3.26_20260408_005528
+2025,Ford,Transit,87.0,automatic,gas,missing,missing,missing,6.0,139500.0,29224.67949700192,4.3.26_20260408_005528
+2008,Chevy,Suburban LT 1500,242000.0,automatic,gas,black,missing,missing,6.0,8500.0,7816.79340177845,4.3.26_20260408_005528
+2011,BMW,328i Xdrive Sedan,96000.0,automatic,gas,Blue Water Metallic,missing,missing,6.0,7485.0,10063.42573182624,4.3.26_20260408_005528
+2018,Lexus,LX 570,75788.0,automatic,gas,missing,missing,missing,8.0,32920.0,13196.223245375399,4.3.26_20260408_005528
+1967,Ford,Mustang,missing,manual,gas,red,missing,missing,6.0,5000.0,31205.953863026225,4.3.26_20260408_005528
+2014,Cadillac,ATS-4 AWD Sport Sedan,130000.0,automatic,gas,red,missing,missing,4.0,6485.0,7453.675301742713,4.3.26_20260408_005528
+2005,Chevrolet,Avalanche,215000.0,automatic,gas,missing,missing,missing,8.0,5800.0,18869.219463261907,4.3.26_20260408_005528
+2012,Jeep,Liberty Limited Sport,114000.0,automatic,gas,Black Forest Green,missing,missing,6.0,6885.0,9845.564216066607,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2015,toyota,sienna,159707.0,automatic,gas,red,missing,missing,6.0,12900.0,11903.917701922122,4.3.26_20260408_005528
+2017,Subaru,outback 3.6,80000.0,automatic,gas,white,missing,missing,6.0,21000.0,10566.145692751285,4.3.26_20260408_005528
+2013,Chevy,Equinox,138000.0,automatic,gas,white,missing,missing,6.0,4950.0,7602.593879938298,4.3.26_20260408_005528
+2019,Toyota,Tundra,59082.0,automatic,gas,missing,missing,missing,6.0,31920.0,9465.647348660172,4.3.26_20260408_005528
+2008,Mini,Cooper S,134000.0,automatic,gas,missing,missing,missing,4.0,3500.0,1457.3426625846914,4.3.26_20260408_005528
+2013,Chevy,Cruze,85000.0,automatic,gas,tan,missing,missing,4.0,5495.0,3726.13894765845,4.3.26_20260408_005528
+2018,Lexus,LC 500,19539.0,automatic,gas,missing,missing,missing,8.0,48955.0,15640.676636293883,4.3.26_20260408_005528
+2001,Toyota,Land Cruiser,273000.0,automatic,gas,missing,missing,missing,8.0,4000.0,6231.796587292818,4.3.26_20260408_005528
+2018,Ford,F-150,71621.0,automatic,gas,missing,missing,missing,6.0,29955.0,15083.024546694105,4.3.26_20260408_005528
+2012,Honda,Civic,136000.0,automatic,gas,brown,missing,missing,4.0,3500.0,6345.3807601530425,4.3.26_20260408_005528
+2022,acura,tlx,30000.0,automatic,gas,missing,missing,missing,missing,2000.0,13493.54086954661,4.3.26_20260408_005528
+2015,subaru,legacy,175019.0,automatic,gas,black,missing,missing,4.0,6900.0,8442.435157396827,4.3.26_20260408_005528
+1985,ford,transit cargo van,15000.0,automatic,gas,black,missing,missing,8.0,5000.0,13652.089040698564,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2012,TOYOTA,CAMRY SE,93250.0,automatic,gas,red,missing,missing,4.0,13800.0,8765.438152718529,4.3.26_20260408_005528
+2012,Cadillac,CTS Premium,170000.0,automatic,gas,blue,missing,missing,6.0,6999.0,6368.013495188476,4.3.26_20260408_005528
+1958,ford,pickup,100000.0,manual,gas,red,missing,missing,4.0,6000.0,20529.864733005154,4.3.26_20260408_005528
+2013,hyundai,elantra,130000.0,automatic,gas,red,missing,missing,4.0,4700.0,6396.3548281902,4.3.26_20260408_005528
+2018,Kia,soul +,170000.0,automatic,gas,silver,missing,missing,4.0,4200.0,5899.856464916878,4.3.26_20260408_005528
+2013,Infiniti,JX35 Premium AWD SUV,139000.0,automatic,gas,silver,missing,missing,6.0,6885.0,7386.421324675775,4.3.26_20260408_005528
+2019,RAM,Promaster City,201000.0,automatic,gas,white,missing,missing,4.0,8500.0,16065.5916936106,4.3.26_20260408_005528
+1990,Volvo,240,252300.0,automatic,gas,blue,missing,missing,4.0,1200.0,8606.628247227422,4.3.26_20260408_005528
+1965,Ford,Thunderbird,64000.0,automatic,gas,silver,missing,missing,8.0,1000.0,12896.29037728861,4.3.26_20260408_005528
+2007,Chevrolet,Impala,136320.0,automatic,gas,brown,missing,missing,6.0,2995.0,19555.122629021127,4.3.26_20260408_005528
+2012,Subaru,Outback,130671.0,automatic,gas,red,missing,missing,4.0,8998.0,7613.236430047713,4.3.26_20260408_005528
+2005,CHEVROLET,EXPRESS 1500,66167.0,automatic,gasoline,BEIGE,missing,missing,8.0,25993.0,18460.857741409185,4.3.26_20260408_005528
+2002,Ford,Ranger Xlt,131000.0,automatic,gas,grey,missing,missing,6.0,10399.0,9671.098547129282,4.3.26_20260408_005528
+2006,honda,accord,233000.0,automatic,gas,grey,missing,missing,4.0,1800.0,-1918.8950062857657,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2002,Mercedes,S430,200000.0,automatic,gas,silver,missing,missing,8.0,2500.0,7253.32886661745,4.3.26_20260408_005528
+2011,subaru,outback,150000.0,automatic,gas,red,missing,missing,4.0,6000.0,4636.317129363633,4.3.26_20260408_005528
+2006,nissan,quest sl,135000.0,automatic,gas,black,missing,missing,6.0,2000.0,10271.527769541082,4.3.26_20260408_005528
+2018,Land Rover,Range Rover,101615.0,automatic,gas,black,missing,missing,8.0,25900.0,18679.637398365106,4.3.26_20260408_005528
+2011,Chevrolet,Tahoe,178907.0,automatic,missing,Red Jewel Tintcoat,missing,missing,8.0,8500.0,15257.423258584795,4.3.26_20260408_005528
+2017,Ford,F-150,106743.0,automatic,gas,red,missing,missing,6.0,18995.0,17053.821970551817,4.3.26_20260408_005528
+2020,Audi,Q3,77916.0,automatic,gas,Chronos Gray Metallic,missing,missing,4.0,18900.0,13841.90846187637,4.3.26_20260408_005528
+2019,Dodge,Charger,54917.0,automatic,gas,White,missing,missing,6.0,10800.0,13961.580560904844,4.3.26_20260408_005528
+2016,Honda,Pilot,120070.0,automatic,gas,White Diamond Pearl,missing,missing,6.0,12990.0,10424.544163724708,4.3.26_20260408_005528
+2011,Lexus,LS 460,115212.0,automatic,gas,blue,missing,missing,8.0,13500.0,10314.446556010254,4.3.26_20260408_005528
+1987,Ford,F 150,79000.0,manual,gas,red,missing,missing,8.0,7500.0,25698.451289474782,4.3.26_20260408_005528
+2018,BMW,X1,86540.0,automatic,gas,Mineral White Metallic,missing,missing,4.0,13500.0,12312.951567444114,4.3.26_20260408_005528
+2015,Ford,Fusion,92276.0,automatic,gas,black,missing,missing,4.0,10850.0,9835.553892159041,4.3.26_20260408_005528
+2014,Honda,civic EX,150000.0,automatic,gas,missing,missing,missing,4.0,6999.0,1155.5898564554664,4.3.26_20260408_005528
+2018,INFINITI,Q50,139096.0,automatic,gas,white,missing,missing,6.0,14850.0,14255.984848558113,4.3.26_20260408_005528
+2010,Chevrolet,Express 2500 Cargo,280000.0,automatic,gas,grey,missing,missing,8.0,4800.0,20279.321199899365,4.3.26_20260408_005528
+2013,Hyundai,Sonata,220000.0,automatic,gas,blue,missing,missing,4.0,3700.0,3368.106203005167,4.3.26_20260408_005528
+2023,Hyundai,Elantra,108905.0,automatic,gas,Ecotronic Gray,missing,missing,4.0,16750.0,15688.894561552042,4.3.26_20260408_005528
+2020,Nissan,Rogue,82675.0,automatic,gas,Caspian Blue Metallic,missing,missing,4.0,14900.0,11937.691929657502,4.3.26_20260408_005528
+1969,Chevrolet,Camaro,4664.0,automatic,gas,blue,missing,missing,missing,59000.0,42603.395702307535,4.3.26_20260408_005528
+2018,Land Rover,Range Rover Sport,93146.0,automatic,gas,white,missing,missing,6.0,20950.0,19147.14222793655,4.3.26_20260408_005528
+2018,BMW,X2,79633.0,automatic,gas,black,missing,missing,4.0,15500.0,14721.220089470517,4.3.26_20260408_005528
+2016,Subaru,Crosstrek,147973.0,manual,gas,White,missing,missing,4.0,9998.0,16829.111544694762,4.3.26_20260408_005528
+2008,Chevy,Express 3500,170484.0,automatic,gas,white,missing,missing,8.0,8995.0,6196.451731597204,4.3.26_20260408_005528
+2016,Mercedes-Benz,Sprinter 3500,200489.0,automatic,diesel,white,missing,missing,6.0,14200.0,13606.114682753956,4.3.26_20260408_005528
+1956,Chevrolet,Bel Air,1250.0,manual,gas,black,missing,missing,missing,175000.0,114629.19604871952,4.3.26_20260408_005528
+2012,Honda,Civic LX sedan,159543.0,automatic,gas,red,missing,missing,4.0,5995.0,8175.453746354222,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2009,Toyota,Prius Hybrid Hatchback,127000.0,automatic,hybrid,Graphite Grey,missing,missing,4.0,6485.0,5757.256502440374,4.3.26_20260408_005528
+2012,ACURA,MDX SPORT,166000.0,automatic,gas,missing,missing,missing,6.0,7800.0,6511.931200182264,4.3.26_20260408_005528
+2015,Chevrolet,Silverado 1500,126474.0,automatic,gas,Slate Grey Metallic,missing,missing,8.0,15900.0,15888.55374265782,4.3.26_20260408_005528
+1986,Chevy,El Camino,1234567.0,automatic,gas,missing,missing,missing,missing,6000.0,8217.054113871973,4.3.26_20260408_005528
+1987,Ford,F150,79000.0,manual,gas,red,missing,missing,8.0,7500.0,25138.892716391172,4.3.26_20260408_005528
+2007,Saturn,Vue,165000.0,automatic,gas,red,missing,missing,6.0,6700.0,9692.120225463374,4.3.26_20260408_005528
+2018,BMW,X5,100000.0,automatic,gas,missing,missing,missing,missing,20999.0,13304.365550998815,4.3.26_20260408_005528
+1950,Jaguar,MK V Drophead coupe,51000.0,manual,gas,red,missing,missing,6.0,85000.0,43154.05771431999,4.3.26_20260408_005528
+2007,Saturn,Vue,165000.0,automatic,gas,red,missing,missing,6.0,3900.0,9692.120225463374,4.3.26_20260408_005528
+2012,chevy,equinox lt,160000.0,automatic,gas,black,missing,missing,4.0,5000.0,5343.503507821721,4.3.26_20260408_005528
+2011,Toyota,Tundra,190000.0,automatic,gas,missing,missing,missing,8.0,7500.0,2906.324563805776,4.3.26_20260408_005528
+2013,ford,e-450,164000.0,automatic,gas,white,missing,missing,missing,44995.0,11398.103536962022,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+2001,BMW,Z3 Roadster,79700.0,automatic,gas,silver,missing,missing,6.0,14000.0,12574.154615688847,4.3.26_20260408_005528
+1976,ford,ELITE,40000.0,automatic,gas,white,missing,missing,8.0,4000.0,13297.536959768277,4.3.26_20260408_005528
+2017,Mercedes,G 63 AMG,43393.0,automatic,gas,missing,missing,missing,8.0,50315.0,7111.017279810743,4.3.26_20260408_005528
+2016,toyota,4runner,181790.0,automatic,gas,white,missing,missing,6.0,18900.0,9905.71162125423,4.3.26_20260408_005528
+2016,Volvo,XC60 T5 Premier AWD SUV,126000.0,automatic,gas,Twilight Osmium Grey Metallic,missing,missing,5.0,8885.0,7177.80496423152,4.3.26_20260408_005528
+2012,Volvo,S80 T6 Premier AWD Sedan,151000.0,automatic,gas,white,missing,missing,6.0,5485.0,8453.045260013361,4.3.26_20260408_005528
+2017,ford,focus se,56588.0,automatic,gas,grey,missing,missing,4.0,8300.0,6945.05047409263,4.3.26_20260408_005528
+2016,SUBARU,FORESTER TOURING,185000.0,automatic,gas,silver,missing,missing,4.0,7500.0,3543.0543138465437,4.3.26_20260408_005528
+2015,BMW,X5 3.5i X-drive Sport SUV,142000.0,automatic,gas,white,missing,missing,6.0,8985.0,12820.235776322534,4.3.26_20260408_005528
+2005,Ford,Ranger XLT,142350.0,manual,gas,red,missing,missing,6.0,8000.0,22526.276583932828,4.3.26_20260408_005528
+2006,Jeep,Grand Cherokee Laredo,130000.0,automatic,gas,missing,missing,missing,6.0,3950.0,4651.921850424815,4.3.26_20260408_005528
+2002,Dodge,Neon,150000.0,automatic,gas,missing,missing,missing,missing,3288.0,2857.0065463921364,4.3.26_20260408_005528
+1995,jeep,wrangler yj,174000.0,manual,gas,green,missing,missing,4.0,5000.0,16777.233995330458,4.3.26_20260408_005528
+2013,subaru,impreza,185000.0,automatic,gas,silver,missing,missing,4.0,3500.0,3244.3224572857926,4.3.26_20260408_005528
+1988,Chevrolet,Caprice,69541.0,automatic,gas,CREAM,missing,missing,8.0,17500.0,22790.43313153866,4.3.26_20260408_005528
+2006,Lexus,GS 300,131986.0,automatic,gas,silver,missing,missing,6.0,8900.0,9323.4788710104,4.3.26_20260408_005528
+2017,Ford,F-150,106743.0,automatic,gas,Ruby Red Metallic Tinted Clearcoat,missing,missing,6.0,18995.0,15140.869884307845,4.3.26_20260408_005528
+2020,Nissan,Rogue,82675.0,automatic,gasoline,Caspian Blue Metallic,missing,missing,4.0,13800.0,12223.685972910898,4.3.26_20260408_005528
+2016,Dodge,Grand Caravan,48019.0,automatic,gas,blue,missing,missing,6.0,12850.0,10403.93082201537,4.3.26_20260408_005528
+2020,Audi,Q3,77916.0,automatic,gas,Chronos Gray Metallic,missing,missing,4.0,18900.0,13841.90846187637,4.3.26_20260408_005528
+2015,Honda,Civic Sedan,130759.0,automatic,gas,blue,missing,missing,4.0,9400.0,6258.892254281571,4.3.26_20260408_005528
+2001,chevrolet,silverado 2500hd,246000.0,automatic,diesel,black,missing,missing,8.0,5000.0,16456.324043825563,4.3.26_20260408_005528
+2013,Toyota,Avalon Hybrid,100775.0,automatic,gas,BURGANDY,missing,missing,4.0,14800.0,4744.533887657468,4.3.26_20260408_005528
+2017,Land Rover,Range Rover Sport,95262.0,automatic,gas,black,missing,missing,6.0,16900.0,17438.478545021968,4.3.26_20260408_005528
+2018,BMW,X2,79633.0,automatic,gas,black,missing,missing,4.0,15500.0,14721.220089470517,4.3.26_20260408_005528
+2016,Honda,Pilot,120070.0,automatic,gas,White Diamond Pearl,missing,missing,6.0,12990.0,10424.544163724708,4.3.26_20260408_005528
+2018,INFINITI,Q50,139096.0,automatic,gas,Majestic White,missing,missing,6.0,14850.0,13922.69358117855,4.3.26_20260408_005528
+2015,Mercedes-Benz,GLK-Class,123897.0,automatic,gas,red,missing,missing,6.0,8800.0,11966.412014702531,4.3.26_20260408_005528
+2014,Ford,Econoline Cargo Van e-250,91374.0,automatic,gas,white,missing,missing,8.0,12300.0,11410.168609833858,4.3.26_20260408_005528
+2018,GMC,Yukon XL,153518.0,automatic,gas,white,missing,missing,8.0,15990.0,17610.81545467641,4.3.26_20260408_005528
+2018,Land Rover,Range Rover,101615.0,automatic,gas,black,missing,missing,8.0,31900.0,18679.637398365106,4.3.26_20260408_005528
+2020,Ford,Fusion,35125.0,automatic,gas,blue,missing,missing,4.0,14850.0,12429.007065042908,4.3.26_20260408_005528
+2014,Subaru,legacy 2.5i premium,212700.0,automatic,gas,blue,missing,missing,missing,3200.0,10118.567586577201,4.3.26_20260408_005528
+2015,Ford,Fusion,92276.0,automatic,gas,black,missing,missing,4.0,10850.0,9835.553892159041,4.3.26_20260408_005528
